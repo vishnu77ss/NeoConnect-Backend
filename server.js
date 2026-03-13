@@ -18,7 +18,9 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:3000", 
-        "https://neo-connect-mern-system.vercel.app"
+        "https://neo-connect-mern-system.vercel.app",
+        "https://neo-connect-mern-system-git-main-vishnumurthy441-2988s-projects.vercel.app"
+
     ],
     credentials: true
 }));
